@@ -14,7 +14,7 @@ app.use(express.json());
 
 /** Set up and enable Cross-Origin Resource Sharing (CORS) **/
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'http://localhost:5173',
   credentials: true,
 };
 app.use(cors(corsOptions));
